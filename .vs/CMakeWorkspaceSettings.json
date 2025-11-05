@@ -1,0 +1,4 @@
+{
+  "enableCMake": true,
+  "sourceDirectory": "flight_code"
+}
