@@ -1,0 +1,7 @@
+﻿-IC:\Users\zchen\Documents2\Projects\spaaro-main\flight_code\autocode
+-IC:\Users\zchen\Documents2\Projects\spaaro-main\flight_code\autocode\baseline_ert_rtw
+-I"C:\Program Files\MATLAB\R2024a\extern\include"
+-I"C:\Program Files\MATLAB\R2024a\simulink\include"
+-I"C:\Program Files\MATLAB\R2024a\rtw\c\src"
+-I"C:\Program Files\MATLAB\R2024a\rtw\c\src\ext_mode\common"
+-I"C:\Program Files\MATLAB\R2024a\rtw\c\ert"

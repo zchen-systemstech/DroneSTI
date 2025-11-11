@@ -1,0 +1,1019 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/ci/19700101 http://schema.mathworks.com/mf0/sl_modelref_info/R2024a http://schema.mathworks.com/mf0/slexec_mm_sto/R2024a_202305081229 http://schema.mathworks.com/mf0/sltp_mm/R2023a_202209151115">
+  <ModelRefInfoRepo.ModelRefInfoRoot type="ModelRefInfoRepo.ModelRefInfoRoot" uuid="780a1c1a-0c5c-4ab2-b117-7f0b8c7b6fff">
+    <JITEngines>sQNZJi6jNseberGuHdP5kkG</JITEngines>
+    <JITEngines>seTi7pfesr4Bam5sJdCqiTD</JITEngines>
+    <JITEngines>skLiVns5am5aFn2xA3lUzcD</JITEngines>
+    <childModelRefInfo type="ModelRefInfoRepo.ChildModelRefInfo" uuid="01359227-f7fe-4a65-8664-8df224519266">
+      <isSingleInstance>true</isSingleInstance>
+      <modelName>baseline</modelName>
+      <modelPath>baseline</modelPath>
+    </childModelRefInfo>
+    <compiledTFinal>10.0</compiledTFinal>
+    <dataSourceInfo type="ModelRefInfoRepo.DataSourceInfo" uuid="21b5756c-03f4-42b4-8d55-a487eccf6684">
+      <dataSources type="ModelRefInfoRepo.SourceInfo" uuid="a6aa82a3-3c4e-4fe0-b23d-d03deb15c28c">
+        <includeAllSections>true</includeAllSections>
+        <sourceName>base workspace</sourceName>
+        <type>BaseWorkspace</type>
+      </dataSources>
+      <modelName>baseline</modelName>
+    </dataSourceInfo>
+    <dataTransferInfos>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAAAgAAAAAAAAAFAAAACAAAAAAAAAABAAAAAQAAAAAAAAAFAAQAAQAAAAEAAAAAAAAA</dataTransferInfos>
+    <fastestNoncontSigFeedingDerivPorts>-1.0</fastestNoncontSigFeedingDerivPorts>
+    <fundamentalSampleTimePeriod>.01</fundamentalSampleTimePeriod>
+    <globalVariables>AdcData</globalVariables>
+    <globalVariables>AnalogData</globalVariables>
+    <globalVariables>BatteryData</globalVariables>
+    <globalVariables>GnssData</globalVariables>
+    <globalVariables>ImuData</globalVariables>
+    <globalVariables>InceptorData</globalVariables>
+    <globalVariables>MissionItem</globalVariables>
+    <globalVariables>NavData</globalVariables>
+    <globalVariables>PowerModuleData</globalVariables>
+    <globalVariables>PresData</globalVariables>
+    <globalVariables>PwmCmd</globalVariables>
+    <globalVariables>SbusCmd</globalVariables>
+    <globalVariables>SensorData</globalVariables>
+    <globalVariables>SysData</globalVariables>
+    <globalVariables>TelemData</globalVariables>
+    <globalVariables>VmsData</globalVariables>
+    <globalVariables>framePeriod_s</globalVariables>
+    <hasBlockWithPeriodicDiscreteSampleTime>true</hasBlockWithPeriodicDiscreteSampleTime>
+    <hasBwsAccessed>true</hasBwsAccessed>
+    <hasNonVirtualConstantTs>true</hasNonVirtualConstantTs>
+    <inports type="ModelRefInfoRepo.InportInformation" uuid="2e0686c8-d54e-4b6a-9fd9-754c6c2dfd46">
+      <directFeedThrough>false</directFeedThrough>
+      <isNotDerivPort>true</isNotDerivPort>
+      <RTWSignalIdentifier>SysData</RTWSignalIdentifier>
+      <designMax>inf</designMax>
+      <designMin>-inf</designMin>
+      <indexType>2</indexType>
+      <rateInfos type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+        <period>.01</period>
+        <priority>40</priority>
+        <rateIdx>0</rateIdx>
+      </rateInfos>
+      <resolvedSignalObject></resolvedSignalObject>
+      <executionInterface type="ModelRefInfoRepo.InputExecutionInterface" uuid="1369884b-210c-4c14-97c2-145191669c10"/>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="48ab4b1a-a16d-4084-8da4-cdcf502b9ec5"/>
+    </inports>
+    <inports type="ModelRefInfoRepo.InportInformation" uuid="ea8f0389-025a-4695-8b1f-15f3d68b161a">
+      <isNotDerivPort>true</isNotDerivPort>
+      <RTWSignalIdentifier>SensorData</RTWSignalIdentifier>
+      <designMax>inf</designMax>
+      <designMin>-inf</designMin>
+      <indexType>2</indexType>
+      <originalPortNumber>1</originalPortNumber>
+      <rateInfos type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+        <period>.01</period>
+        <priority>40</priority>
+        <rateIdx>0</rateIdx>
+      </rateInfos>
+      <resolvedSignalObject></resolvedSignalObject>
+      <executionInterface type="ModelRefInfoRepo.InputExecutionInterface" uuid="3d635ab7-e878-4773-a643-e8711677d53e"/>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="2c8f6761-e12b-4e56-91d1-46db616428c2"/>
+    </inports>
+    <inports type="ModelRefInfoRepo.InportInformation" uuid="222bcd4d-9c13-4d61-beb1-881fdfa0d823">
+      <directFeedThrough>false</directFeedThrough>
+      <isNotDerivPort>true</isNotDerivPort>
+      <RTWSignalIdentifier>NavData</RTWSignalIdentifier>
+      <designMax>inf</designMax>
+      <designMin>-inf</designMin>
+      <indexType>2</indexType>
+      <originalPortNumber>2</originalPortNumber>
+      <rateInfos type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+        <period>.01</period>
+        <priority>40</priority>
+        <rateIdx>0</rateIdx>
+      </rateInfos>
+      <resolvedSignalObject></resolvedSignalObject>
+      <executionInterface type="ModelRefInfoRepo.InputExecutionInterface" uuid="f2d7b2ac-005c-4b2c-8358-5e20777f1b55"/>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="afa9708e-2e09-4cd8-a912-1747bda3ad7c"/>
+    </inports>
+    <inports type="ModelRefInfoRepo.InportInformation" uuid="45cd46c4-1152-47f5-a988-377a7bc411e5">
+      <directFeedThrough>false</directFeedThrough>
+      <isNotDerivPort>true</isNotDerivPort>
+      <RTWSignalIdentifier>TelemData</RTWSignalIdentifier>
+      <designMax>inf</designMax>
+      <designMin>-inf</designMin>
+      <indexType>2</indexType>
+      <originalPortNumber>3</originalPortNumber>
+      <rateInfos type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+        <period>.01</period>
+        <priority>40</priority>
+        <rateIdx>0</rateIdx>
+      </rateInfos>
+      <resolvedSignalObject></resolvedSignalObject>
+      <executionInterface type="ModelRefInfoRepo.InputExecutionInterface" uuid="8648d652-5e3a-4683-8e5a-561f7af5b8e9"/>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="26f108a1-02a1-421f-858e-86bc0ba63e32"/>
+    </inports>
+    <isBdInSimModeForSimCodegenVariants>false</isBdInSimModeForSimCodegenVariants>
+    <isInlineParamsOn>true</isInlineParamsOn>
+    <isNumAllowedInstancesOne>true</isNumAllowedInstancesOne>
+    <isOrigInportVirtualBus>false</isOrigInportVirtualBus>
+    <isOrigInportVirtualBus>false</isOrigInportVirtualBus>
+    <isOrigInportVirtualBus>false</isOrigInportVirtualBus>
+    <isOrigInportVirtualBus>false</isOrigInportVirtualBus>
+    <isOrigOutportVirtualBus>false</isOrigOutportVirtualBus>
+    <loggingSaveFormat>2</loggingSaveFormat>
+    <maxFreqHz>-1.0</maxFreqHz>
+    <numDataInputPorts>4</numDataInputPorts>
+    <numLoggableJacobianDStates>0</numLoggableJacobianDStates>
+    <origInportBusType></origInportBusType>
+    <origInportBusType></origInportBusType>
+    <origInportBusType></origInportBusType>
+    <origInportBusType></origInportBusType>
+    <origOutportBusOutputAsStruct>true</origOutportBusOutputAsStruct>
+    <origOutportBusType>VmsData</origOutportBusType>
+    <outports type="ModelRefInfoRepo.OutportInformation" uuid="c05ffbbd-3c63-45df-90e3-0ed6bd23a538">
+      <designMax>inf</designMax>
+      <designMin>-inf</designMin>
+      <rateInfos type="ModelRefInfoRepo.RateInfo">
+        <compiled>true</compiled>
+        <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+        <period>.01</period>
+        <priority>40</priority>
+        <rateIdx>0</rateIdx>
+      </rateInfos>
+      <resolvedSignalObject></resolvedSignalObject>
+      <executionInterface type="ModelRefInfoRepo.OutputExecutionInterface" uuid="28e0edba-67cb-4b67-b154-194e1750e47f"/>
+      <sigNameToEMVCEMap type="ModelRefInfoRepo.SigNameEMVCEInfo" uuid="0bc8a96c-f7ca-41bf-bb47-61aaed2fc0ec"/>
+    </outports>
+    <removeResetFunc>true</removeResetFunc>
+    <runtimeNonFcnCallRateInfos type="ModelRefInfoRepo.RateInfo">
+      <compiled>true</compiled>
+      <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+      <period>.01</period>
+      <priority>40</priority>
+      <rateIdx>0</rateIdx>
+    </runtimeNonFcnCallRateInfos>
+    <sampleTimeInheritanceRule>2</sampleTimeInheritanceRule>
+    <solverStatusFlags>327</solverStatusFlags>
+    <timingAndTaskingRegistry>&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;slexec_sto version=&quot;1.1&quot; packageUris=&quot;http://schema.mathworks.com/mf0/slexec_mm_sto/R2024a_202305081229&quot;&gt;
+  &lt;sto.Registry type=&quot;sto.Registry&quot; uuid=&quot;e659e8e9-9e3e-4f7e-b69d-f99807ba7908&quot;&gt;
+    &lt;executionSpec&gt;Undetermined&lt;/executionSpec&gt;
+    &lt;identifier&gt;baseline&lt;/identifier&gt;
+    &lt;clockRegistry type=&quot;sto.ClockRegistry&quot; uuid=&quot;65c67d82-c120-4405-812f-2abb87a3302a&quot;&gt;
+      &lt;clocks type=&quot;sto.Timer&quot; uuid=&quot;cf849da8-0aaf-49c4-bf53-6073eb64d6a6&quot;&gt;
+        &lt;computedFundamentalDiscretePeriod&gt;.01&lt;/computedFundamentalDiscretePeriod&gt;
+        &lt;fastestDiscreteRate type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;2370739a-7f9e-4fff-8fdb-e2c56819e8cb&quot;/&gt;
+        &lt;isDefaultTimer&gt;true&lt;/isDefaultTimer&gt;
+        &lt;resolution&gt;.01&lt;/resolution&gt;
+        &lt;timeAdvanceMode&gt;FixedStep&lt;/timeAdvanceMode&gt;
+        &lt;identifier&gt;baseline::defaultTimer&lt;/identifier&gt;
+        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;2370739a-7f9e-4fff-8fdb-e2c56819e8cb&quot;&gt;
+          &lt;annotation&gt;D1&lt;/annotation&gt;
+          &lt;clockId&gt;baseline::defaultTimer&lt;/clockId&gt;
+          &lt;description&gt;Discrete 1&lt;/description&gt;
+          &lt;taskId&gt;_task0&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;ba38023d-f72e-4aaf-bbbe-1db5567b009f&quot;&gt;
+            &lt;period&gt;.01&lt;/period&gt;
+            &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+        &lt;baseRate type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;7e896bdb-3cd8-47f7-86ee-d113bd90af07&quot;&gt;
+          &lt;annotation&gt;D1&lt;/annotation&gt;
+          &lt;clockId&gt;baseline::defaultTimer&lt;/clockId&gt;
+          &lt;description&gt;Discrete 1&lt;/description&gt;
+          &lt;taskId&gt;_task0&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;616a9881-43a7-4fa1-9a44-05d6862641f0&quot;&gt;
+            &lt;period&gt;.01&lt;/period&gt;
+            &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/baseRate&gt;
+      &lt;/clocks&gt;
+      &lt;clocks type=&quot;sto.Event&quot; uuid=&quot;276d5a1e-f8a2-41ed-aa17-bc1d50dd3900&quot;&gt;
+        &lt;eventType&gt;PARAMETER_CHANGE_EVENT&lt;/eventType&gt;
+        &lt;cNum&gt;1&lt;/cNum&gt;
+        &lt;clockType&gt;Event&lt;/clockType&gt;
+        &lt;identifier&gt;ParameterChangeEvent&lt;/identifier&gt;
+        &lt;rates type=&quot;sto.ModelWideEventRate&quot; uuid=&quot;28976057-5128-47f5-a89f-b46472917b93&quot;&gt;
+          &lt;clockId&gt;ParameterChangeEvent&lt;/clockId&gt;
+          &lt;rateIdx&gt;-1&lt;/rateIdx&gt;
+          &lt;taskId&gt;ModelWideParameterChangeEvent&lt;/taskId&gt;
+          &lt;useForExecution&gt;NotForExecution&lt;/useForExecution&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;00989df6-a7f1-412c-8d9a-025e46591b05&quot;&gt;
+            &lt;period&gt;inf&lt;/period&gt;
+            &lt;rateType&gt;ModelWideParameterChangeEvent&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+      &lt;/clocks&gt;
+      &lt;timeAdvanceMode&gt;FixedStep&lt;/timeAdvanceMode&gt;
+    &lt;/clockRegistry&gt;
+    &lt;taskRegistry type=&quot;sto.TaskRegistry&quot; uuid=&quot;a69b5a0b-c587-4f1d-8327-a231cde0c00e&quot;&gt;
+      &lt;rootTaskHierarchyElements type=&quot;sto.Task&quot; uuid=&quot;90d1ea83-c5cd-44c6-997d-842a43e9cf86&quot;&gt;
+        &lt;isExplicit&gt;true&lt;/isExplicit&gt;
+        &lt;rates type=&quot;sto.ModelWideEventRate&quot; uuid=&quot;2247c70a-7732-4f51-9f6b-4e50f2e2e205&quot;&gt;
+          &lt;clockId&gt;ParameterChangeEvent&lt;/clockId&gt;
+          &lt;rateIdx&gt;-1&lt;/rateIdx&gt;
+          &lt;taskId&gt;ModelWideParameterChangeEvent&lt;/taskId&gt;
+          &lt;useForExecution&gt;NotForExecution&lt;/useForExecution&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;294fe225-2cbe-4782-98fb-78e3f7867d81&quot;&gt;
+            &lt;period&gt;inf&lt;/period&gt;
+            &lt;rateType&gt;ModelWideParameterChangeEvent&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+        &lt;schedulingClockId&gt;ParameterChangeEvent&lt;/schedulingClockId&gt;
+        &lt;timeKeeperClockId&gt;baseline::defaultTimer&lt;/timeKeeperClockId&gt;
+        &lt;elementType&gt;Task&lt;/elementType&gt;
+        &lt;identifier&gt;ModelWideParameterChangeEvent&lt;/identifier&gt;
+        &lt;priority&gt;-1&lt;/priority&gt;
+      &lt;/rootTaskHierarchyElements&gt;
+      &lt;rootTaskHierarchyElements type=&quot;sto.Task&quot; uuid=&quot;7b312262-b76d-4335-bdbd-a149cf2dc9c6&quot;&gt;
+        &lt;isExecutable&gt;true&lt;/isExecutable&gt;
+        &lt;orderIndex&gt;1&lt;/orderIndex&gt;
+        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;997e7404-05b7-49fc-843d-29114831b729&quot;&gt;
+          &lt;annotation&gt;D1&lt;/annotation&gt;
+          &lt;clockId&gt;baseline::defaultTimer&lt;/clockId&gt;
+          &lt;description&gt;Discrete 1&lt;/description&gt;
+          &lt;taskId&gt;_task0&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;98d3bf54-3ed9-4aaa-ad47-ae20a6f73fd7&quot;&gt;
+            &lt;period&gt;.01&lt;/period&gt;
+            &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+        &lt;schedulingClockId&gt;baseline::defaultTimer&lt;/schedulingClockId&gt;
+        &lt;timeKeeperClockId&gt;baseline::defaultTimer&lt;/timeKeeperClockId&gt;
+        &lt;elementType&gt;Task&lt;/elementType&gt;
+        &lt;identifier&gt;_task0&lt;/identifier&gt;
+        &lt;priority&gt;40&lt;/priority&gt;
+      &lt;/rootTaskHierarchyElements&gt;
+      &lt;taskDependencyGraph type=&quot;sto.SerializedTaskConnectionList&quot; uuid=&quot;cae91bd4-2557-4610-83c6-5b7b0b88a518&quot;&gt;
+        &lt;clockIdentifier&gt;baseline::defaultTimer&lt;/clockIdentifier&gt;
+        &lt;taskIdentifier&gt;_task0&lt;/taskIdentifier&gt;
+      &lt;/taskDependencyGraph&gt;
+      &lt;taskDependencyGraph type=&quot;sto.SerializedTaskConnectionList&quot; uuid=&quot;78be93d0-c3d2-4698-9ad7-aa4a720b5f30&quot;&gt;
+        &lt;clockIdentifier&gt;ParameterChangeEvent&lt;/clockIdentifier&gt;
+        &lt;taskIdentifier&gt;ModelWideParameterChangeEvent&lt;/taskIdentifier&gt;
+      &lt;/taskDependencyGraph&gt;
+      &lt;taskPriorityDirection&gt;HighNumberLast&lt;/taskPriorityDirection&gt;
+    &lt;/taskRegistry&gt;
+  &lt;/sto.Registry&gt;
+&lt;/slexec_sto&gt;</timingAndTaskingRegistry>
+    <userSpecifiedFixedStepSize>.01</userSpecifiedFixedStepSize>
+    <zeroInternalMemoryAtStartupUnchecked>true</zeroInternalMemoryAtStartupUnchecked>
+    <FMUBlockMap type="ModelRefInfoRepo.FMUBlockInfo" uuid="bddada1a-c259-4e1e-bb98-9f4689967059"/>
+    <codeGenInfo type="ModelRefInfoRepo.CodeGenInformation" uuid="010010fc-a76e-4d66-8dd2-cb57dd2a5ea9"/>
+    <compiledVariantInfos type="ModelRefInfoRepo.CompiledVariantInfoMap" uuid="25ed4c33-4574-4ffa-8277-947ac25fa8c4"/>
+    <configSettingsForConsistencyChecks type="ModelRefInfoRepo.ConfigSettingsForConsistencyChecks" uuid="c09a7e18-0e75-463b-a3a1-2e869c17bf6b">
+      <consistentOutportInitialization>true</consistentOutportInitialization>
+      <fixedStepSize>.01</fixedStepSize>
+      <frameDiagnosticSetting>2</frameDiagnosticSetting>
+      <hasHybridSampleTime>true</hasHybridSampleTime>
+      <optimizedInitCode>true</optimizedInitCode>
+      <signalLoggingSaveFormat>2</signalLoggingSaveFormat>
+      <simSIMDOptimization>1</simSIMDOptimization>
+      <solverName>FixedStepDiscrete</solverName>
+      <solverType>SOLVER_TYPE_FIXEDSTEP</solverType>
+      <hardwareSettings type="ModelRefInfoRepo.HardwareSettings" uuid="4de25845-5225-4917-875e-ec149cc29cc0">
+        <prodBitPerChar>8</prodBitPerChar>
+        <prodBitPerDouble>64</prodBitPerDouble>
+        <prodBitPerFloat>32</prodBitPerFloat>
+        <prodBitPerInt>32</prodBitPerInt>
+        <prodBitPerLong>32</prodBitPerLong>
+        <prodBitPerLongLong>64</prodBitPerLongLong>
+        <prodBitPerPointer>32</prodBitPerPointer>
+        <prodBitPerPtrDiffT>32</prodBitPerPtrDiffT>
+        <prodBitPerShort>16</prodBitPerShort>
+        <prodBitPerSizeT>32</prodBitPerSizeT>
+        <prodEndianess>1</prodEndianess>
+        <prodLargestAtomicFloat>1</prodLargestAtomicFloat>
+        <prodLargestAtomicInteger>3</prodLargestAtomicInteger>
+        <prodLongLongMode>true</prodLongLongMode>
+        <prodShiftRight>true</prodShiftRight>
+        <prodWordSize>32</prodWordSize>
+      </hardwareSettings>
+    </configSettingsForConsistencyChecks>
+    <controllableInputRatesMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="e07348bb-9e69-46d2-b58c-b11aae0680d5"/>
+    <controllableOutputRatesMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="c24150a1-0e1a-4293-95c3-8e1173da976d"/>
+    <dataPortGroup type="ModelRefInfoRepo.DataPortGroup" uuid="c1586940-54fe-4a79-b742-6c8f878e4298">
+      <compDataInputPorts>0</compDataInputPorts>
+      <compDataInputPorts>1</compDataInputPorts>
+      <compDataInputPorts>2</compDataInputPorts>
+      <compDataInputPorts>3</compDataInputPorts>
+      <compDataOutputPorts>0</compDataOutputPorts>
+      <dataInputPorts>0</dataInputPorts>
+      <dataInputPorts>1</dataInputPorts>
+      <dataInputPorts>2</dataInputPorts>
+      <dataInputPorts>3</dataInputPorts>
+      <dataOutputPorts>0</dataOutputPorts>
+    </dataPortGroup>
+    <expFcnUnconnectedDataPortGroup type="ModelRefInfoRepo.DataPortGroup" uuid="6528bf18-0cc4-4667-9ed5-3769280c2726">
+      <compDataInputPorts>0</compDataInputPorts>
+      <compDataInputPorts>2</compDataInputPorts>
+      <compDataInputPorts>3</compDataInputPorts>
+    </expFcnUnconnectedDataPortGroup>
+    <interfaceParameterInfo type="ModelRefInfoRepo.InterfaceParameterInfo" uuid="8cb90533-1fc2-4d0f-b6b8-578c7e97175a"/>
+    <messageInfo type="ModelRefInfoRepo.MessageInformation" uuid="1d8aee45-8750-40a7-8888-91195defd793">
+      <rootInportInfo type="ModelRefInfoRepo.MessageRootPortInfo" uuid="4cf5187f-fdc3-4776-adc9-4903c0b6c97e">
+        <GrHierarchyMsgModeMap type="ModelRefInfoRepo.MessageModeMap" uuid="3939c42a-2d61-4ad0-be32-603b48f9d285"/>
+        <GrHierarchyMsgModeMap type="ModelRefInfoRepo.MessageModeMap" uuid="35a90921-2c4e-40fa-b2d9-7f06d2dfb643">
+          <portIdx>2</portIdx>
+        </GrHierarchyMsgModeMap>
+        <GrHierarchyMsgModeMap type="ModelRefInfoRepo.MessageModeMap" uuid="2f2baa1d-3979-4164-8753-b643a8179cd9">
+          <portIdx>3</portIdx>
+        </GrHierarchyMsgModeMap>
+      </rootInportInfo>
+    </messageInfo>
+    <methodInfo type="ModelRefInfoRepo.MethodExistenceInfo" uuid="9ef86a20-c7fe-4b83-a277-fb9b2ec58ba2"/>
+    <periodicEventPortUnsupportedBlockInfo type="ModelRefInfoRepo.PeriodicEventPortUnsupportedBlockInfo" uuid="ace38eba-5438-4f3c-80f1-2bd6be8fd9f8"/>
+    <portGroupsRequireSameRate type="ModelRefInfoRepo.PortGroupsRequireSameRate" uuid="e0bb60cf-db5f-4b8e-906b-40cbe95540b9">
+      <DSMPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="f121d46e-f5c4-4eac-908a-d1404a5427b6"/>
+      <GlobalDSMPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="fdf316d5-b623-4f17-a736-dbb5bc0395fb"/>
+      <mergedPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="20ad1bf5-1da3-447b-8f71-09dc51ba7aaf"/>
+    </portGroupsRequireSameRate>
+    <rateBasedMdlGlobalDSMRateSpec type="ModelRefInfoRepo.GlobalDSMRateSpecMap" uuid="58ec5917-5f18-4e26-a889-66ffb626bf6f"/>
+    <rateSpecOfGlobalDSMAccessedByDescExpFcnMdlMap type="ModelRefInfoRepo.GlobalDSMRateSpecMap" uuid="bccc2b29-1b9f-47f4-a4bc-f5345d1a0671"/>
+    <rootBlockDiagramInterface type="ci.Model" uuid="2d1044f1-5916-43ab-a319-6589f7235630">
+      <p_RootComponentInterface type="ci.ComponentInterface" uuid="fc31fea8-ab52-4671-8893-7ea8b8b5ef94">
+        <p_InputPorts type="ci.SignalInterface" uuid="012dc0f2-6695-4fca-a4e4-eca4929cebc7">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.01</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>SysData</p_ComputedType>
+          <p_SignalName>SysData</p_SignalName>
+          <p_Name>System Data</p_Name>
+        </p_InputPorts>
+        <p_InputPorts type="ci.SignalInterface" uuid="907fe80f-8d01-4f4b-930f-3f2e15cc348d">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.01</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>SensorData</p_ComputedType>
+          <p_SignalName>SensorData</p_SignalName>
+          <p_Name>Sensor Data</p_Name>
+        </p_InputPorts>
+        <p_InputPorts type="ci.SignalInterface" uuid="618de4c4-0d8c-49e4-adfa-55214fbcb6aa">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.01</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>NavData</p_ComputedType>
+          <p_SignalName>NavData</p_SignalName>
+          <p_Name>Navigation Filter Data</p_Name>
+        </p_InputPorts>
+        <p_InputPorts type="ci.SignalInterface" uuid="ca274801-14b4-48f8-a46e-0cf58ff6b480">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.01</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>TelemData</p_ComputedType>
+          <p_SignalName>TelemData</p_SignalName>
+          <p_Name>Telemetry Data</p_Name>
+        </p_InputPorts>
+        <p_Name>baseline</p_Name>
+        <p_OutputPorts type="ci.SignalInterface" uuid="2211736b-450d-4091-895d-98fd93895b43">
+          <p_ComputedNumericDimensions>1.0</p_ComputedNumericDimensions>
+          <p_ComputedSampleTime>.01</p_ComputedSampleTime>
+          <p_ComputedSampleTime>0.0</p_ComputedSampleTime>
+          <p_ComputedType>VmsData</p_ComputedType>
+          <p_Name>VMS Data</p_Name>
+        </p_OutputPorts>
+        <p_Type>ROOT</p_Type>
+      </p_RootComponentInterface>
+    </rootBlockDiagramInterface>
+    <simulinkFunctions type="ModelRefInfoRepo.SimulinkFunctions" uuid="8e1e44b1-d6a8-4a13-88fc-596da9bbc9f1">
+      <compSimulinkFunctionCatalog></compSimulinkFunctionCatalog>
+    </simulinkFunctions>
+    <sltpContext type="sltp.mm.core.Context" uuid="d5bb3459-338b-426e-879b-3a3af09ec309">
+      <globalData type="sltp.mm.core.GlobalData" uuid="6b63e34e-2572-4d0e-b079-125d98beeace">
+        <dataName>portAircraft Data</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="9bed793d-3318-41a2-9740-924e6692a2b5">
+        <dataName>portAux Data</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="8d29909b-4b40-4b79-ad9f-c6f6e102d43d">
+        <dataName>portAux Data_data</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="1f969fe9-e295-4f69-8dcb-db4844862b79">
+        <dataName>portControl Data</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="5d6ee47a-942d-4fbf-92cb-753ace71e0a8">
+        <dataName>portEffector Cmds</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="1c6071c0-4239-461a-8b2b-ded667bd0801">
+        <dataName>portEffector Cmds_pwm</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="a98e7642-8206-401b-ad50-66a43f3fc557">
+        <dataName>portEffector Cmds_sbus</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="26bd1d3c-909b-4c7a-b9f2-b98bc9e4a6e0">
+        <dataName>portInceptor Data</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="509a9c3e-ab9d-466f-96e0-49d0743b094f">
+        <dataName>portInceptor Data_mode0</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="7108c2a3-9c7e-4b63-8b18-5ad33a751f99">
+        <dataName>portInceptor Data_mode1</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="89d2aaca-cb80-4136-8472-c195d8b998a6">
+        <dataName>portInceptor Data_mode2</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="7f2d9657-f59e-47b6-85e9-9bf1f0f2c7c6">
+        <dataName>portInceptor Data_pitch</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="86eedd3f-6556-4394-9ec5-b65f60db8d7f">
+        <dataName>portInceptor Data_roll</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="0a38141d-7294-42f9-94de-f80dbd907415">
+        <dataName>portInceptor Data_throttle</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="ee4eaa9f-6feb-4818-906c-ccc9af4ee956">
+        <dataName>portInceptor Data_throttle_en</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="9d796953-4f14-4cec-82ff-933ccafd91d4">
+        <dataName>portInceptor Data_yaw</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="82537210-0e47-419a-b38a-3f00079658a4">
+        <dataName>portNavigation Filter Data</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="e6eb4721-67f9-437a-bdb3-475077bbff1e">
+        <dataName>portNavigation Filter Data_accel_bias_mps2</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="13207bd9-734e-4aa5-84fc-28dad332d3f1">
+        <dataName>portNavigation Filter Data_accel_mps2</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="ac29e2a4-fa2f-44d1-8cf0-29c9f21708ff">
+        <dataName>portNavigation Filter Data_alt_msl_m</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="247663f8-5d93-4fe7-958e-7500394bfe9e">
+        <dataName>portNavigation Filter Data_alt_pres_m</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="29a30979-fc21-4f21-af38-2d1149da1936">
+        <dataName>portNavigation Filter Data_alt_rel_m</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="29abe5f9-46a4-466b-b0e0-a0023e4fe071">
+        <dataName>portNavigation Filter Data_alt_wgs84_m</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="e66bfba2-bad3-49ce-b0dd-cd2de76848b7">
+        <dataName>portNavigation Filter Data_diff_pres_pa</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="5cb4f2e7-3e3f-4134-b506-41837a81a937">
+        <dataName>portNavigation Filter Data_flight_path_rad</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="4fa815c1-ca98-43c1-b1bb-f9b333e42006">
+        <dataName>portNavigation Filter Data_gnd_spd_mps</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="788c3576-40b2-4ee7-98ec-0ed742608183">
+        <dataName>portNavigation Filter Data_gnd_track_rad</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="d6d94e29-696d-46b2-9f5d-16caf73102bb">
+        <dataName>portNavigation Filter Data_gyro_bias_radps</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="b9f7f1f2-5c2a-485b-8aa1-c5f39564c0e5">
+        <dataName>portNavigation Filter Data_gyro_radps</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="ac35633d-4177-4aef-922e-6026d1a48d98">
+        <dataName>portNavigation Filter Data_heading_rad</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="6e165756-9194-40e5-81fc-b7e9162db193">
+        <dataName>portNavigation Filter Data_ias_mps</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="5b88df7e-3b66-4bff-8d9b-b093edccbcc1">
+        <dataName>portNavigation Filter Data_lat_rad</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="8be473da-d735-4ed1-b11e-cdc031aabaaf">
+        <dataName>portNavigation Filter Data_lon_rad</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="0abeacf9-7598-46f1-bc1c-c18bdfb28a9a">
+        <dataName>portNavigation Filter Data_mag_ut</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="bb14f27a-87dd-4789-a8e7-c677209d7732">
+        <dataName>portNavigation Filter Data_nav_initialized</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="f9a031fc-c519-4d63-aae8-750878572543">
+        <dataName>portNavigation Filter Data_ned_pos_m</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="04ef4876-517c-453d-af9a-a18cc67a41d9">
+        <dataName>portNavigation Filter Data_ned_vel_mps</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="58606692-9bed-4542-aab6-f4c4e140f1d8">
+        <dataName>portNavigation Filter Data_pitch_rad</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="f31a7116-309a-4f24-ae6d-221190424cb2">
+        <dataName>portNavigation Filter Data_roll_rad</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="c5950438-0833-4035-99e7-9a707c604ef0">
+        <dataName>portNavigation Filter Data_static_pres_pa</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="db288735-e101-49b2-bd3d-c5c27f83c4fa">
+        <dataName>portSenProc Data</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="a153151a-1910-4140-9f3a-53829028c13b">
+        <dataName>portSensor Data</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="229566d9-81fd-4081-b894-fe5a7cb11121">
+        <dataName>portSensor Data_airdata_diff_pres_pa</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="9da2bc4c-3d41-4ce8-9bb4-e4d940d37c05">
+        <dataName>portSensor Data_airdata_static_pres_pa</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="6ae64898-8d58-4f4f-9748-5efa206fc3d4">
+        <dataName>portSensor Data_diff_pres_die_temp_c</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="041818c0-5f18-4d40-a928-aa862a89d7c6">
+        <dataName>portSensor Data_diff_pres_healthy</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="8d6fc87d-992c-4917-ba6e-10f8ebf8af85">
+        <dataName>portSensor Data_diff_pres_new_data</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="6ea2292b-a20d-4661-8612-20e9bf9492f1">
+        <dataName>portSensor Data_diff_pres_pres_pa</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="bb050fd4-d836-442a-8afc-3371626d037f">
+        <dataName>portSensor Data_gnss_alt_msl_m</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="2a276f9b-bbc5-4838-a51d-86cf8012f3f2">
+        <dataName>portSensor Data_gnss_alt_wgs84_m</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="9bf61290-4cc0-4657-9b90-9e04e0cdba4b">
+        <dataName>portSensor Data_gnss_fix</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="8bab554b-ad4f-4602-96c6-a4b440af7fdb">
+        <dataName>portSensor Data_gnss_hdop</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="a03864f5-813a-4d3b-a2ea-de12d16cfbdb">
+        <dataName>portSensor Data_gnss_healthy</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="4394ba2a-46f8-4ccb-a0e4-1ca3df27b74c">
+        <dataName>portSensor Data_gnss_horz_acc_m</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="964cdda7-b932-4796-8a72-b6cefaa00749">
+        <dataName>portSensor Data_gnss_lat_rad</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="9a252449-1b98-4bc9-9464-40f0f47f923a">
+        <dataName>portSensor Data_gnss_lon_rad</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="dbace20e-52c8-457a-ad42-5eb8831640f1">
+        <dataName>portSensor Data_gnss_ned_vel_mps</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="9e74832b-1f21-44ab-8fa8-58df005ebac2">
+        <dataName>portSensor Data_gnss_ned_vel_x_mps</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="c4379373-c1af-4ca5-9a03-bec6e0e70466">
+        <dataName>portSensor Data_gnss_ned_vel_y_mps</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="e36c03eb-3dec-4dbc-b36e-7ca94c745a62">
+        <dataName>portSensor Data_gnss_ned_vel_z_mps</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="0e737585-7a63-4d1e-9306-11fa96cd2cb9">
+        <dataName>portSensor Data_gnss_new_data</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="6ef32250-341a-4f67-b0a4-91b6736026ff">
+        <dataName>portSensor Data_gnss_num_sats</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="56b8fe5a-33ca-4ebc-be5b-ed911e533d95">
+        <dataName>portSensor Data_gnss_spd_mps</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="67292738-0a9f-4cb5-b86e-c02c4ec53b5d">
+        <dataName>portSensor Data_gnss_tow_ms</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="a5a1c230-d27b-4476-b13c-f4731b77f287">
+        <dataName>portSensor Data_gnss_tow_s</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="16e0bcbe-83ec-418c-a038-de7b46d9a0ff">
+        <dataName>portSensor Data_gnss_track_acc_rad</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="0817b7df-9cc2-45bf-a2fa-b76ef7fbf636">
+        <dataName>portSensor Data_gnss_track_rad</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="a6c1d8e3-af0b-4588-a00e-2bd158927adb">
+        <dataName>portSensor Data_gnss_vdop</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="3ac64bc7-9480-49c0-99a2-845ae982ef0a">
+        <dataName>portSensor Data_gnss_vel_acc_mps</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="a6703200-720f-46d7-8126-fcd3a2646ee8">
+        <dataName>portSensor Data_gnss_vert_acc_m</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="0efb34aa-6a12-4a74-912e-47ab2c67472a">
+        <dataName>portSensor Data_gnss_week</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="943bf603-89f9-4c1d-b99d-5bfa589bf825">
+        <dataName>portSensor Data_imu_accel_mps2</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="e636e5cb-3fbd-4151-99a3-5b166db259a2">
+        <dataName>portSensor Data_imu_accel_x_mps2</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="5556d93f-095c-4101-a44a-76b65f42ef00">
+        <dataName>portSensor Data_imu_accel_y_mps2</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="66cd2df7-2d9e-41c8-85c8-6d9c438d39ec">
+        <dataName>portSensor Data_imu_accel_z_mps2</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="8df4ee46-08f7-4570-92e1-afc55bcfcebf">
+        <dataName>portSensor Data_imu_die_temp_c</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="1679971c-ad8c-4722-9a9e-9e3a89360ce2">
+        <dataName>portSensor Data_imu_gyro_radps</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="eb143a60-2391-4114-9a16-26d0b0b2ded4">
+        <dataName>portSensor Data_imu_gyro_x_radps</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="56ea3b99-93e4-4fb4-8a8c-04c4b04f342c">
+        <dataName>portSensor Data_imu_gyro_y_radps</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="598cce2b-26c5-4e9a-b941-f73a8f5523e1">
+        <dataName>portSensor Data_imu_gyro_z_radps</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="7b54f2dd-8f44-4396-b9d3-6c656b32ef29">
+        <dataName>portSensor Data_imu_imu_healthy</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="580cb5ea-118b-48fc-ade7-55194a4d5fda">
+        <dataName>portSensor Data_imu_mag_healthy</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="54a18ab2-ca4b-4681-989e-98ed3f3fa5da">
+        <dataName>portSensor Data_imu_mag_ut</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="68171aa6-7240-4bb0-b2d7-f2646acf3664">
+        <dataName>portSensor Data_imu_mag_x_ut</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="660ef59c-5acb-40f5-b3ef-23de80c06e1d">
+        <dataName>portSensor Data_imu_mag_y_ut</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="be69ae32-3125-44c3-8292-c5dfd52a2a67">
+        <dataName>portSensor Data_imu_mag_z_ut</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="85201987-709f-4d49-8409-02c1f69e229a">
+        <dataName>portSensor Data_imu_new_imu_data</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="f74f16f6-80b7-478d-bd61-b2f052d1c061">
+        <dataName>portSensor Data_imu_new_mag_data</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="4e0877ae-2863-494f-bc64-605dc2ab12b6">
+        <dataName>portSensor Data_inceptor_failsafe</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="7a00e51b-d40c-4cab-a3c2-b9659e0fe3c5">
+        <dataName>portSensor Data_inceptor_lost_frame</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="f4976d6a-7f1d-48ed-a4a3-0a6f52814826">
+        <dataName>portSensor Data_inceptor_mode0</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="b12de4cc-aa10-475d-9483-566f594c8fe5">
+        <dataName>portSensor Data_inceptor_mode1</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="b94be1ed-aa06-4c34-a20f-5e3a043e14f3">
+        <dataName>portSensor Data_inceptor_new_data</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="5e5e33d9-d919-4fa9-9e68-26b93705a8fa">
+        <dataName>portSensor Data_inceptor_pitch</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="da57c59c-cedd-4761-91d0-21475c01813b">
+        <dataName>portSensor Data_inceptor_roll</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="910a9f96-ebff-4b2c-9e00-d237c82376e5">
+        <dataName>portSensor Data_inceptor_throttle</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="2ddca51f-e5af-44fb-b68f-f0875a5623ca">
+        <dataName>portSensor Data_inceptor_throttle_en</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="e09251a1-88ae-4456-a574-8dcbab545d70">
+        <dataName>portSensor Data_inceptor_yaw</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="3e64456f-2d0f-4ea9-9830-3f13462eeca5">
+        <dataName>portSensor Data_pitot_static_installed</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="eabf9a67-b7ef-4868-8696-7b2301147583">
+        <dataName>portSensor Data_static_pres_die_temp_c</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="f2470380-39a1-447a-9af6-c060e4bfb89a">
+        <dataName>portSensor Data_static_pres_healthy</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="2fee8b07-76a3-4970-81d2-05db25c4e346">
+        <dataName>portSensor Data_static_pres_new_data</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="1cacb925-6433-4716-9c26-461d27e6637b">
+        <dataName>portSensor Data_static_pres_pres_pa</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="4362a4d0-1a41-434c-a6d0-34cb96e3c31e">
+        <dataName>portSensor Data_sys_time_s</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="ab28f995-168a-413e-a6a9-3216aa3a8fb2">
+        <dataName>portSensor Processing Data</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="57846bc1-110b-4a69-b32e-815abaaab935">
+        <dataName>portSensor Processing Data_accel_x_mps2</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="70897422-56a3-49cb-8197-61ee2abc9a8a">
+        <dataName>portSensor Processing Data_accel_y_mps2</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="e70b44b4-4ce9-43eb-860c-d03b72485749">
+        <dataName>portSensor Processing Data_accel_z_mps2</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="b4964278-6232-4c9f-8fa8-aad6f1aea473">
+        <dataName>portSensor Processing Data_alt_pres_m</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="eb4587b7-f1e0-445d-a2f2-41762c1c7ec1">
+        <dataName>portSensor Processing Data_alt_wgs84_m</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="40e2efb9-ad04-4d01-b1a0-9760c8b829ea">
+        <dataName>portSensor Processing Data_diff_pres_pa</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="3536b3c5-99ff-430c-9972-4b2e81985541">
+        <dataName>portSensor Processing Data_eas_mps</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="90e6fe35-a782-4601-b76f-292eb99f1117">
+        <dataName>portSensor Processing Data_gyro_x_radps</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="cd67ee2e-0581-4e7d-a2c2-da9ce6ad3140">
+        <dataName>portSensor Processing Data_gyro_y_radps</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="0833954d-ee00-4bdc-9ceb-70f7c55ee2ab">
+        <dataName>portSensor Processing Data_gyro_z_radps</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="f706aad8-9c7b-4105-8752-e67ff5d5949e">
+        <dataName>portSensor Processing Data_ias_mps</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="8041fae4-b310-44f6-9313-f6e121792a27">
+        <dataName>portSensor Processing Data_lat_rad</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="63a72c95-aaff-4fb5-9061-dedca9b5e267">
+        <dataName>portSensor Processing Data_lon_rad</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="cc9bd905-44c2-40a9-b800-e6a4afbcf567">
+        <dataName>portSensor Processing Data_ned_vel_x_mps</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="c1b5c632-b2d1-4269-90b4-ab9fdc2afad8">
+        <dataName>portSensor Processing Data_ned_vel_y_mps</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="746f008b-2e8c-42ed-9805-9331451d6dc7">
+        <dataName>portSensor Processing Data_ned_vel_z_mps</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="a8924262-7501-48bd-aafc-4818f99a0054">
+        <dataName>portSensor Processing Data_pitch_rad</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="1eef1f2b-8f94-42e6-9411-950ee4967b25">
+        <dataName>portSensor Processing Data_roll_rad</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="9443d9ef-8d8a-4c75-bae5-76332166fe73">
+        <dataName>portSensor Processing Data_static_pres_pa</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="577e9575-2380-407d-a4fe-676dba0f881c">
+        <dataName>portSensor Processing Data_yaw_rad</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="e543daf8-f5ab-442a-8d7c-ac03c04bef70">
+        <dataName>portSystem Data</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="c53f4d15-55c5-4e72-9563-31d68f72020b">
+        <dataName>portSystem Data_frame_time_s</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="f7221602-5e0c-4610-ad96-5463ac2afe12">
+        <dataName>portSystem Data_frame_time_us</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="412c761f-34ba-4e67-bf68-4647a93646ef">
+        <dataName>portSystem Data_input_volt</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="7da7a0ab-e53e-4b76-a164-dc3eaa54de9f">
+        <dataName>portSystem Data_pwm_volt</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="488ae289-0560-42a0-bf12-b45ff4edf027">
+        <dataName>portSystem Data_reg_volt</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="6f27f9a3-c1e4-44cc-9cc4-46d79aecdd0e">
+        <dataName>portSystem Data_sbus_volt</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="b20c7734-c494-43bf-b835-e03d7867c97e">
+        <dataName>portSystem Data_sys_time_s</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="5dc7ccaf-c4a1-44ce-892a-583717a56991">
+        <dataName>portSystem Data_sys_time_us</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="f06cf953-0106-420a-aab6-00bd8536df03">
+        <dataName>portTelemetry Data</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="bf62d8cd-d069-47b5-9f26-d7e767b9500b">
+        <dataName>portTelemetry Data_current_waypoint</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="a4d3c20b-e1b2-4a84-a02b-c842c0e7f6d0">
+        <dataName>portTelemetry Data_fence_updated</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="681f3f02-28ad-45ab-ab70-4c5e3653fc5d">
+        <dataName>portTelemetry Data_num_fence_items</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="fc32738c-2144-42da-8529-1894f768f854">
+        <dataName>portTelemetry Data_num_rally_points</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="3532a1ac-bc00-44cf-90eb-dcc7be340606">
+        <dataName>portTelemetry Data_num_waypoints</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="6c4941a6-0d99-48ba-9782-8aecfff1f42d">
+        <dataName>portTelemetry Data_param</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="b0b3746e-869c-4128-9882-deaba18856ff">
+        <dataName>portTelemetry Data_rally_points_updated</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="eeeedd70-fef7-4549-9cd9-a1ea6bc9e6d1">
+        <dataName>portTelemetry Data_waypoints_updated</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="d6ac71ea-4494-4910-8464-f5c7ae5a6271">
+        <dataName>portVMS Data</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <priorityDirection>HighNumberLast</priorityDirection>
+      <unusedTaskIds>2</unusedTaskIds>
+      <defaultEventBehavior type="sltp.mm.core.EventBehavior" uuid="246c1fb0-0f7d-421e-ac83-7406b7e90d8b"/>
+      <editorState type="sltp.mm.core.EditorState" uuid="7c09ce62-97fa-4f90-81c8-381fea60607b">
+        <isSynchronized>true</isSynchronized>
+        <panelState type="sltp.mm.core.EditorPanelState" uuid="fd70851b-7128-450f-8fe3-02d3eb9388e4"/>
+      </editorState>
+      <rootTask type="sltp.mm.core.Task" uuid="646ae012-8aae-466c-b380-eef0d18832eb">
+        <context type="sltp.mm.core.Context" uuid="d5bb3459-338b-426e-879b-3a3af09ec309"/>
+        <explicit>false</explicit>
+        <name>Default</name>
+        <priority>-2147483648</priority>
+        <subgraph type="sltp.mm.core.Graph" uuid="ca6878d9-702f-4691-8d3e-5db5a0f82563">
+          <tasks type="sltp.mm.core.Task" uuid="a27de233-c3fc-4b0d-ae43-b0ddd1347953">
+            <context type="sltp.mm.core.Context" uuid="d5bb3459-338b-426e-879b-3a3af09ec309"/>
+            <explicit>false</explicit>
+            <id>1</id>
+            <isTimed>true</isTimed>
+            <name>D1</name>
+            <priority>40</priority>
+            <rates type="sltp.mm.core.Rate" uuid="25d7b45c-a666-44cd-9012-2ee5bf45d533">
+              <annotation>D1</annotation>
+              <color>-12240129</color>
+              <hasBlocks>true</hasBlocks>
+              <identifier>ClassicPeriodicDiscrete0.010</identifier>
+              <rateIndex>0</rateIndex>
+              <rateSpec type="sltp.mm.core.RateSpec">
+                <period>.01</period>
+              </rateSpec>
+              <sti>0</sti>
+            </rates>
+          </tasks>
+        </subgraph>
+      </rootTask>
+    </sltpContext>
+    <stateWriterToOwnerMap type="ModelRefInfoRepo.StateWriterInfo" uuid="331197c4-f0aa-4b4c-a83c-eba3ea85ec44"/>
+    <stoClientDataRegistry type="sto.ClientDataRegistry" uuid="441c8a6e-e378-4216-98ae-f9f56af15ccd">
+      <dataSets type="sto.ClientClockNamedDataSet" uuid="1593a2ba-bc3a-4ed7-aa8e-1ba845f5ce59">
+        <tag>sltpEvents</tag>
+      </dataSets>
+      <dataSets type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="f33c030a-d30c-49d7-94ae-3d3a5d049090">
+        <tag>sltpTaskGroups</tag>
+      </dataSets>
+      <dataSets type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="238a15ba-2c81-4bf1-9671-89bd8a6a6621">
+        <dSet type="ModelRefInfoRepo.SltpTaskData" uuid="c061ac80-0c92-4668-96f1-d0b1cb084f40"/>
+        <tSet type="ModelRefInfoRepo.SltpTaskData" uuid="c061ac80-0c92-4668-96f1-d0b1cb084f40">
+          <dataName>D1</dataName>
+          <linkedSet type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="238a15ba-2c81-4bf1-9671-89bd8a6a6621"/>
+          <id type="sto.TaskHierarchyElementId">
+            <clockId>baseline::defaultTimer</clockId>
+            <id>_task0</id>
+          </id>
+        </tSet>
+        <tag>sltpTasks</tag>
+      </dataSets>
+    </stoClientDataRegistry>
+    <varTsUIDMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="8641e1b2-e42a-4f97-b36b-fe7198908d45"/>
+  </ModelRefInfoRepo.ModelRefInfoRoot>
+</MF0>
